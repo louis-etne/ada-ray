@@ -13,7 +13,7 @@ procedure Main is
    use Ada.Real_Time;
 
    Width  : constant Positive := 800;
-   Height : constant Positive := 600;
+   Height : constant Positive := 608;
 
    Character_Width  : constant Positive := 4;
    Character_Height : constant Positive := 8;

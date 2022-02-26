@@ -21,10 +21,10 @@ package Math.Vector is
    function Normalize (V : in Vector_Type) return Vector_Type;
    function Apply_Transform_Matrix (V : Vector_Type; M : Matrix.Matrix_Type) return Vector_Type;
 
-                                    -- Debug
-                                    function Debug (V : Vector_Type) return String;
+   -- Debug
+   function Debug (V : Vector_Type) return String;
 
-                                    -- Constant values
-                                    Origin : constant Vector_Type := (0.0, 0.0, 0.0);
+   -- Constant values
+   Origin : constant Vector_Type := (0.0, 0.0, 0.0);
 
-                                    end Math.Vector;
+end Math.Vector;
